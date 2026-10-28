@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio ECA</title>
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#beranda">
+                ECA Portfolio ♡
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Buka menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keahlian">Keahlian</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="beranda" class="bg-danger-subtle py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                    <span class="badge text-bg-danger">
+                        Welcome to My Portfolio
+                    </span>
+
+                    <h1 class="display-4 fw-bold mt-3">
+                        Hai, Gw ceisya! 🌷
+                    </h1>
+
+                    <h2 class="h4 text-danger">
+                        Mahasiswi Teknik uny
+                    </h2>
+
+                    <p class="lead">
+                        Aku sedang belajar pemrograman, desain,
+                        dan pengembangan website. Aku ingin terus
+                        berkembang dan menciptakan karya digital.
+                    </p>
+
+                    <a href="#tentang" class="btn btn-danger">
+                        Kenalin nih mpruy
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-5 text-center mt-4 mt-md-0">
+                    <div class="display-1">🌸</div>
+                    <h3 class="h5">Learning and Growing</h3>
+                    <p>tetap belajar walaupun sudah jenius.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="tentang" class="container py-5">
+        <div class="text-center mb-4">
+            <h2 class="text-danger fw-bold">Tentang ECA</h2>
+            <p>lanjut biar makin akrab,tapi tetep jaga adab!</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-9">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="h5 fw-bold">Biodata Singkat</h3>
+
+                        <p>
+                            Halo! Aku ceisya alesha gazala, mahasiswa
+                            Teknik yang tertarik pada
+                            teknologi dan pemrograman website.
+                        </p>
+
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <div class="p-3 bg-danger-subtle rounded">
+                                    <strong>Nama</strong>
+                                    <p class="mb-0">ceisya alesha gazala</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <div class="p-3 bg-danger-subtle rounded">
+                                    <strong>Program Studi</strong>
+                                    <p class="mb-0">Teknologi Informasi</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <div class="p-3 bg-danger-subtle rounded">
+                                    <strong>Fakultas</strong>
+                                    <p class="mb-0">Fakultas teknik UNY</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <div class="p-3 bg-danger-subtle rounded">
+                                    <strong>Semester</strong>
+                                    <p class="mb-0">3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="keahlian" class="bg-danger-subtle py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="text-danger fw-bold">Keahlian dan Minat</h2>
+                <p>Hal yang ingin aku pelajari.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-4">💻</div>
+                            <h3 class="h5 fw-bold">Pemrograman</h3>
+                            <p>TREDING CRYPTO.</p>
+                            <a href="#tentang" class="btn btn-danger">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-4">🎨</div>
+                            <h3 class="h5 fw-bold">Web Design</h3>
+                            <p>Belajar membuat website menarik.</p>
+                            <a href="#tentang" class="btn btn-danger">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="display-4">🚀</div>
+                            <h3 class="h5 fw-bold">Teknologi</h3>
+                            <p>Mempelajari perkembangan teknologi.</p>
+                            <a href="#tentang" class="btn btn-danger">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-danger text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">
+                © 2026 Irel Tiara Kalista | Bootstrap 5.3.8
+            </p>
+        </div>
+    </footer>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
